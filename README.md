@@ -13,10 +13,10 @@ How to run:
 - Program will start. You can continue to drawing using below commands.
 
 Supported Commands:
-- C <w> <h> 				: Creates a new canvas of width w and height h
-- L <x1> <y1> <x2> <y2> 	: Creates a new line from (x1,y1) to (x2,y2)
-- R <x1> <y1> <x2> <y2> 	: Creates a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2)
-- B <x> <y> <c>			: Bucket fill colour <c> strating from point <x,y>
+- C w h 				: Creates a new canvas of width w and height h
+- L x1 y1 x2 y2 	: Creates a new line from (x1,y1) to (x2,y2)
+- R x1 y1 x2 y2 	: Creates a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2)
+- B x y c			: Bucket fill colour <c> strating from point <x,y>
 - D 						: Delete drawings on current canvas
 - Q 						: Quits the program
 
