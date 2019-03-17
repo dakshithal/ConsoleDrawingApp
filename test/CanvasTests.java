@@ -1,5 +1,3 @@
-package main.java;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -18,6 +16,11 @@ public class CanvasTests {
 		canvas = new Canvas(w, h);
 	}
 	
+	@Test
+	void testGetSize() {
+		assertEquals(canvas.getWidth(), 10);
+		assertEquals(canvas.getHeight(), 8);
+	}
 	
 	@Test
 	void testHorizontalBorder() {

@@ -1,12 +1,10 @@
-package main.java;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Line implements Shape {
 
-	Point start;
-	Point end;
+	private Point start;
+	private Point end;
 	
 	@SuppressWarnings("unused")
 	private Line() {}
@@ -47,6 +45,7 @@ public class Line implements Shape {
 	
 	private List<Point> getInclinedLinePoints() {
 		List<Point> points = new ArrayList<Point>();
+		System.out.println("Inclined lines are not supported in this version.");
 		return points;
 	}
 }

@@ -1,5 +1,3 @@
-package main.java;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -109,5 +107,14 @@ public class Canvas {
 		
 		return drawing;
 	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+	
 	
 }

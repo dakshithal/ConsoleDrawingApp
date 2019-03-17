@@ -1,6 +1,5 @@
-package main.java;
-
 public class Point {
+	
 	private int x;
 	private int y;
 	private char value = ' ';
